@@ -1,0 +1,121 @@
+[
+  {
+    "name": "csharp",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\csharp.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg",
+    "license": "MIT",
+    "bytes": 851
+  },
+  {
+    "name": "python",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\python.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    "license": "MIT",
+    "bytes": 2300
+  },
+  {
+    "name": "java",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\java.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+    "license": "MIT",
+    "bytes": 1540
+  },
+  {
+    "name": "php",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\php.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
+    "license": "MIT",
+    "bytes": 4624
+  },
+  {
+    "name": "html5",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\html5.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
+    "license": "MIT",
+    "bytes": 607
+  },
+  {
+    "name": "css3",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\css3.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg",
+    "license": "MIT",
+    "bytes": 778
+  },
+  {
+    "name": "javascript",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\javascript.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+    "license": "MIT",
+    "bytes": 1144
+  },
+  {
+    "name": "git",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\git.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+    "license": "MIT",
+    "bytes": 778
+  },
+  {
+    "name": "github",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\github.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg",
+    "license": "MIT",
+    "bytes": 1866
+  },
+  {
+    "name": "visualstudio",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\visualstudio.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-original.svg",
+    "license": "MIT",
+    "bytes": 2082
+  },
+  {
+    "name": "netbeans",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\netbeans.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/netbeans/netbeans-original.svg",
+    "license": "MIT",
+    "bytes": 825
+  },
+  {
+    "name": "eclipse",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\eclipse.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/eclipse/eclipse-original.svg",
+    "license": "MIT",
+    "bytes": 2597
+  },
+  {
+    "name": "pycharm",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\pycharm.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/pycharm/pycharm-original.svg",
+    "license": "MIT",
+    "bytes": 3789
+  },
+  {
+    "name": "wordpress",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\wordpress.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg",
+    "license": "MIT",
+    "bytes": 7686
+  },
+  {
+    "name": "mysql",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\mysql.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
+    "license": "MIT",
+    "bytes": 2765
+  },
+  {
+    "name": "postgresql",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\postgresql.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+    "license": "MIT",
+    "bytes": 9178
+  },
+  {
+    "name": "mongodb",
+    "file": "C:\\Users\\Utilisateur\\Documents\\Codex\\2026-09-26\\files-pasted-by-the-user-je\\work\\logos\\mongodb.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+    "license": "MIT",
+    "bytes": 5611
+  }
+]
