@@ -3,7 +3,7 @@
   const { icon, escape: e, safeUrl, skillsFor, projectLink, showDialog, resource, visibleProjects, toast, reveal } = window.Portfolio;
   document.title = `${data.profile.firstName} ${data.profile.lastName} — Portfolio · BTS SIO SLAM`;
   const portrait = safeUrl(data.profile.photo);
-  if (portrait) document.querySelector('#portrait-slot').innerHTML = `<img src="${e(portrait)}" width="420" height="350" alt="Portrait de ${e(data.profile.firstName)} ${e(data.profile.lastName)}">`;
+  if (portrait) document.querySelector('#portrait-slot').innerHTML = `<img src="${e(portrait)}" width="255" height="318" alt="Portrait de ${e(data.profile.firstName)} ${e(data.profile.lastName)}">`;
   const today = new Intl.DateTimeFormat('fr-FR', {dateStyle:'long'}).format(new Date());
   document.querySelector('#timeline').innerHTML = data.journey.map(entry => `<article class="timeline-entry ${entry.current ? 'is-current' : ''}">
     <div class="timeline-date"><p${entry.current ? ` title="Aujourd’hui : ${e(today)}"` : ''}>${e(entry.period)}</p>${entry.current ? '<span class="badge current-badge"><span class="status-dot"></span>En cours</span>' : ''}</div>

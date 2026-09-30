@@ -495,7 +495,8 @@
   .portrait>img {
     width:  100%;
     height:  100%;
-    object-fit:  cover;
+    object-fit:  contain;
+    background: var(--surface-alt);
     position:  absolute;
     inset:  0
   }
@@ -533,6 +534,18 @@
     align-items:  center;
     gap:  10px
   }
+  .hero-stage-badge {
+    min-width: 0;
+    padding: 6px 10px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface);
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .hero-stage-badge .status-dot {
+    color: var(--accent);
+  }
   .hero-footer>a {
     min-height:  44px
   }
@@ -556,6 +569,7 @@
   }
   .section-description {
     margin-top:  24px;
+    white-space: pre-line;
     color:  var(--muted)
   }
   .profile-facts {
@@ -824,9 +838,36 @@
     font-size:  .75rem;
     display:  flex;
     align-items:  center;
-    justify-content:  space-between;
+    justify-content:  flex-start;
+    width: fit-content;
+    max-width: 100%;
+    gap: 10px;
     min-height:  44px;
-    font-weight:  600
+    font-weight:  600;
+    color: var(--accent);
+    border-radius: var(--radius-sm);
+    text-underline-offset: 4px;
+  }
+  .timeline-details summary > span {
+    display: grid;
+    place-items: center;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    background: var(--accent-soft);
+    transition: background-color var(--duration), border-color var(--duration), color var(--duration);
+  }
+  .timeline-details summary:hover,
+  .timeline-details summary:focus-visible {
+    text-decoration: underline;
+  }
+  .timeline-details summary:hover > span,
+  .timeline-details summary:focus-visible > span {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--bg);
   }
   .timeline-details summary svg {
     width:  16px;
@@ -2243,6 +2284,30 @@
   }
 }
 @layer responsive {
+  .portrait-wrap:has(.portrait > img) {
+    width: min(100%, 282px);
+    padding: 0;
+    justify-self: center;
+  }
+  .portrait-wrap:has(.portrait > img) .portrait {
+    height: auto;
+    aspect-ratio: 255 / 318;
+  }
+  @media (min-width: 1450px) {
+    .portrait-wrap:has(.portrait > img) {
+      width: min(100%, 294px);
+    }
+  }
+  @media (max-width: 760px) {
+    .portrait-wrap:has(.portrait > img) {
+      width: min(100%, 120px);
+    }
+  }
+  @media (max-width: 480px) {
+    .portrait-wrap:has(.portrait > img) {
+      width: min(100%, 106px);
+    }
+  }
   .timeline-summary,
   .details-content,
   .internship-card > p,
